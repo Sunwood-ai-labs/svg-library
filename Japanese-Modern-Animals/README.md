@@ -4,6 +4,11 @@ This repository contains a collection of Japanese modern style animal SVG images
 
 ## Preview Gallery
 
+<p>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/Japanese-Modern-Animals/animal_01_resized.svg" alt="animal_01" width="150"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/Japanese-Modern-Animals/animal_02_resized.svg" alt="animal_02" width="150"/>
+</p>
+
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <div style="width: 150px; text-align: center;">
     <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/Japanese-Modern-Animals/animal_01_resized.svg" alt="animal_01" width="150"/>
