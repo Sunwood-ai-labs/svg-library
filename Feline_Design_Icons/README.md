@@ -1,8 +1,8 @@
-# Cat Icons SVG Library
+# SVG Icon Library
 
-このリポジトリには、さまざまなデザインプロジェクトで使用できる猫のSVGアイコンのコレクションが含まれています。
+This repository contains a collection of SVG icons that can be used in various design projects.
 
-## プレビューギャラリー
+## Preview Gallery
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/Feline_Design_Icons/00_Drawing-of-a-sitting-cat.svg" alt="00_Drawing-of-a-sitting-cat.svg" width="150"/>
@@ -31,9 +31,9 @@
 <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/Feline_Design_Icons/14_Sitting-cat-with-large-ears.svg" alt="14_Sitting-cat-with-large-ears.svg" width="150"/>
 </p>
 
-## ファイルパス
+## File Paths
 
-このコレクションのすべてのSVGファイルへの直接パスは以下の通りです：
+Direct paths to all SVG files in this collection:
 
 ```
 https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/Feline_Design_Icons/00_Drawing-of-a-sitting-cat.svg
@@ -53,16 +53,32 @@ https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/Fe
 https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/Feline_Design_Icons/14_Sitting-cat-with-large-ears.svg
 ```
 
-## 使用方法
+## Usage
 
-これらのSVGアイコンは、以下のいずれかの方法でプロジェクトで使用できます：
-1. このリポジトリから直接SVGファイルをダウンロードする
-2. 上記のGitHub生URLを使用して、アプリケーションで参照する
+You can use these SVG icons in your projects in one of the following ways:
+1. Download the SVG files directly from this repository
+2. Reference them in your application using the GitHub raw URLs listed above
 
-## ライセンス
+## Implementation Examples
 
-[適切なライセンス情報をここに挿入]
+### HTML
+```html
+<img src="https://raw.githubusercontent.com/{repo_name}/main/{target_dir}/icon.svg" alt="Icon description">
+```
 
-## クレジット
+### CSS
+```css
+.icon {
+  background-image: url('https://raw.githubusercontent.com/{repo_name}/main/{target_dir}/icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+```
 
-Sunwood AI Labs 作成
+## License
+
+[Insert appropriate license information here]
+
+## Credits
+
+Created by [Organization/Creator Name]
