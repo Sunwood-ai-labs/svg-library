@@ -1,21 +1,16 @@
-# SVG スプライト ライブラリ
+# 鳥のアイコンライブラリ
 
 このリポジトリは、Webプロジェクトで使用できる鳥のアイコンのSVGスプライトを提供しています。
 
 ## プレビューギャラリー
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/04_Cute-cartoon-chick-illustration.svg" alt="04_Cute-cartoon-chick-illustration" width="150"/>
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-01_Bird-on-branch.svg" alt="bird2-01_Bird-on-branch" width="150"/>
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-06_Cute-cartoon-owl-illustration.svg" alt="bird2-06_Cute-cartoon-owl-illustration" width="150"/>
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-11_Simple-cartoon-bird-illustration.svg" alt="bird2-11_Simple-cartoon-bird-illustration" width="150"/>
-</p>
+以下は利用可能な鳥のアイコンのプレビューです：
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-07_Cute-cartoon-bird-illustration.svg" alt="bird2-07_Cute-cartoon-bird-illustration" width="150"/>
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-10_Cute-cartoon-owl-illustration.svg" alt="bird2-10_Cute-cartoon-owl-illustration" width="150"/>
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-14_Black-and-white-bird-on-branch.svg" alt="bird2-14_Black-and-white-bird-on-branch" width="150"/>
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-03_Cartoon-bird-with-black-and-white-plumage.svg" alt="bird2-03_Cartoon-bird-with-black-and-white-plumage" width="150"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/bird-icons/01_Bird-on-branch.svg" alt="01_Bird-on-branch" width="150"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/bird-icons/02_Simple-drawing-of-a-cute-bird.svg" alt="02_Simple-drawing-of-a-cute-bird" width="150"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/bird-icons/03_Cartoon-bird-with-black-and-white-plumage.svg" alt="03_Cartoon-bird-with-black-and-white-plumage" width="150"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/bird-icons/04_Cute-cartoon-chick-illustration.svg" alt="04_Cute-cartoon-chick-illustration" width="150"/>
 </p>
 
 ## 基本的な使い方
@@ -34,32 +29,23 @@
 ```html
 <!-- 内部参照の場合 -->
 <svg class="ico-svg">
-    <use xlink:href="#04_Cute-cartoon-chick-illustration"></use>
+    <use xlink:href="#01_Bird-on-branch"></use>
 </svg>
 
 <!-- 外部ファイル参照の場合 -->
 <svg class="ico-svg">
-    <use xlink:href="sprite2.svg#bird2-05_icon-Bird-on-branch"></use>
+    <use xlink:href="sprite.svg#02_Simple-drawing-of-a-cute-bird"></use>
 </svg>
 ```
 
 ## 利用可能なアイコン
 
-- bird2-14_Black-and-white-bird-on-branch
-- bird2-06_Cute-cartoon-owl-illustration
-- bird2-12_Cute-cartoon-bird-illustration
-- bird2-01_Bird-on-branch
-- bird2-02_Simple-drawing-of-a-cute-bird
-- bird2-05_Cute-cartoon-owl-illustration
-- bird2-00_Cute-cartoon-owl-illustration
-- bird2-03_Cartoon-bird-with-black-and-white-plumage
-- bird2-08_Black-and-white-bird-illustration
-- bird2-11_Simple-cartoon-bird-illustration
-- bird2-09_Simple-drawing-of-a-bird
-- bird2-07_Cute-cartoon-bird-illustration
-- bird2-13_Cute-bird-illustration
-- bird2-10_Cute-cartoon-owl-illustration
-- 04_Cute-cartoon-chick-illustration
+| アイコンID | 説明 |
+|---------|------|
+| 01_Bird-on-branch | 小枝に止まっている鳥のイラスト |
+| 02_Simple-drawing-of-a-cute-bird | シンプルなタッチで描かれたかわいい鳥 |
+| 03_Cartoon-bird-with-black-and-white-plumage | モノクロの羽を持つ漫画風の鳥 |
+| 04_Cute-cartoon-chick-illustration | かわいいひよこのイラスト |
 
 ## スタイル適用例
 
@@ -101,11 +87,22 @@
 <div class="color-examples">
     <div class="color-example color-red">
         <svg class="ico-svg">
-            <use xlink:href="#04_Cute-cartoon-chick-illustration"></use>
+            <use xlink:href="#01_Bird-on-branch"></use>
         </svg>
         <div>赤色</div>
     </div>
 </div>
+```
+
+## ファイルパス
+
+各SVGファイルへの直接リンク：
+
+```
+https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/bird-icons/01_Bird-on-branch.svg
+https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/bird-icons/02_Simple-drawing-of-a-cute-bird.svg
+https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/bird-icons/03_Cartoon-bird-with-black-and-white-plumage.svg
+https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/bird-icons/04_Cute-cartoon-chick-illustration.svg
 ```
 
 ## ブラウザサポート
