@@ -2,18 +2,21 @@
 
 このリポジトリは、Webプロジェクトで使用できる鳥のアイコンのSVGスプライトを提供しています。
 
-## プレビュー
+## プレビューギャラリー
 
-アイコンのプレビューは以下のデモページで確認できます：
-- [デモページを見る](https://sunwood-ai-labs.github.io/svg-library/) (※実際のURLに変更してください)
+<p align="center">
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/04_Cute-cartoon-chick-illustration.svg" alt="04_Cute-cartoon-chick-illustration" width="150"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-01_Bird-on-branch.svg" alt="bird2-01_Bird-on-branch" width="150"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-06_Cute-cartoon-owl-illustration.svg" alt="bird2-06_Cute-cartoon-owl-illustration" width="150"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-11_Simple-cartoon-bird-illustration.svg" alt="bird2-11_Simple-cartoon-bird-illustration" width="150"/>
+</p>
 
-![鳥のアイコンプレビュー](https://github.com/Sunwood-ai-labs/svg-library/raw/main/preview.png) (※実際の画像パスに変更してください)
-
-### 04_Cute-cartoon-chick-illustration のプレビュー
-
-このアイコンは以下のようなかわいいひよこのイラストです：
-
-![ひよこイラスト](https://github.com/Sunwood-ai-labs/svg-library/raw/main/icons/04_Cute-cartoon-chick-illustration.png) (※実際の画像パスに変更してください)
+<p align="center">
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-07_Cute-cartoon-bird-illustration.svg" alt="bird2-07_Cute-cartoon-bird-illustration" width="150"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-10_Cute-cartoon-owl-illustration.svg" alt="bird2-10_Cute-cartoon-owl-illustration" width="150"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-14_Black-and-white-bird-on-branch.svg" alt="bird2-14_Black-and-white-bird-on-branch" width="150"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/svg-library/refs/heads/main/sandbox/birds/bird2-03_Cartoon-bird-with-black-and-white-plumage.svg" alt="bird2-03_Cartoon-bird-with-black-and-white-plumage" width="150"/>
+</p>
 
 ## 基本的な使い方
 
@@ -81,9 +84,10 @@
 }
 ```
 
-## 使用例
+## HTML実装例
 
 ```html
+<!-- 単一アイコンの表示 -->
 <div class="icon-item">
     <div class="icon-container">
         <svg class="ico-svg">
@@ -93,6 +97,7 @@
     <div class="icon-name">かわいいひよこのイラスト</div>
 </div>
 
+<!-- 色を変更したアイコン -->
 <div class="color-examples">
     <div class="color-example color-red">
         <svg class="ico-svg">
@@ -102,17 +107,6 @@
     </div>
 </div>
 ```
-
-## カラーバリエーション例
-
-以下はアイコンの色を変更した例です：
-
-| 色 | プレビュー |
-|------|---------|
-| デフォルト | ![デフォルト](https://github.com/Sunwood-ai-labs/svg-library/raw/main/examples/default.png) |
-| 赤 | ![赤色](https://github.com/Sunwood-ai-labs/svg-library/raw/main/examples/red.png) |
-| 緑 | ![緑色](https://github.com/Sunwood-ai-labs/svg-library/raw/main/examples/green.png) |
-| 青 | ![青色](https://github.com/Sunwood-ai-labs/svg-library/raw/main/examples/blue.png) |
 
 ## ブラウザサポート
 
